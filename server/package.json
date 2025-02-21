@@ -1,0 +1,22 @@
+{
+    "name": "healthbridge-server",
+    "version": "1.0.0",
+    "description": "Backend server for HealthBridgePlatform",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "@google-cloud/speech": "^4.0.0",
+      "web3": "^1.3.5",
+      "@truffle/contract": "^4.3.12"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    },
+    "author": "",
+    "license": "ISC"
+  }
